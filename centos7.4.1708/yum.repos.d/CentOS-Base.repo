@@ -1,0 +1,38 @@
+
+# CentOS-Base.repo
+#
+# Since official repositories are gone, use vault.centos.org instead.
+#
+#
+
+[base]
+name=CentOS-7 - Base
+baseurl=https://mirrors.tuna.tsinghua.edu.cn/centos-vault/7.4.1708/os/$basearch/
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-7
+
+[updates]
+name=CentOS-7 - Updates
+baseurl=https://mirrors.tuna.tsinghua.edu.cn/centos-vault/7.4.1708/updates/$basearch/
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-7
+
+[extras]
+name=CentOS-7 - Extras
+baseurl=https://mirrors.tuna.tsinghua.edu.cn/centos-vault/7.4.1708/extras/$basearch/
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-7
+
+[centosplus]
+name=CentOS-7 - Plus
+baseurl=https://mirrors.tuna.tsinghua.edu.cn/centos-vault/7.4.1708/centosplus/$basearch/
+gpgcheck=1
+enabled=0
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-7
+
+[contrib]
+name=CentOS-7 - Contrib
+baseurl=https://mirrors.tuna.tsinghua.edu.cn/centos-vault/7.4.1708/contrib/$basearch/
+gpgcheck=1
+enabled=0
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-7

@@ -1,0 +1,10 @@
+# Since official repositories are gone, use vault.centos.org instead.
+
+#CentOS-fasttrack.repo
+
+[fasttrack]
+name=CentOS-7.4.1708 - Fasttrack
+baseurl=https://mirrors.tuna.tsinghua.edu.cn/centos-vault/7.4.1708/fasttrack/$basearch/
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-7
+enabled=0
