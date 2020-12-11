@@ -1,3 +1,3 @@
-FROM centos:centos7.4.1708
+FROM registry.centos.org/centos:7
 
 COPY ./yum.repos.d/ /etc/yum.repos.d/
